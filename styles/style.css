@@ -1,0 +1,9 @@
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+.left-top, .right-top, .left-bottom, .right-bottom {
+  display: inline-block;
+}
+

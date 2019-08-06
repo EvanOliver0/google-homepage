@@ -6,8 +6,10 @@ html, body {
 
 .viewport {
   align-content: space-between;
+  align-items: center;
   display: grid;
   grid-template: 50px 1fr 50px / 100%;
+  justify-items: center;
   /*Part 2 of making main div full-screen*/
   min-height: 100%;
 }
@@ -21,6 +23,7 @@ a {
 .header {
   display: grid;
   grid-template: 100% / 50% 50%;
+  width: 100%;
 }
 
 .main {
@@ -31,6 +34,7 @@ a {
   background: #f2f2f2;
   display: grid;
   grid-template: 100% / 50% 50%;
+  width: 100%;
 }
 
 .left-top, .right-top, .left-bottom, .right-bottom {
@@ -51,4 +55,20 @@ a {
 
 .left-bottom {
   justify-self: left;
+}
+
+img {
+  display: inline-block;
+  height: 92px;
+  margin: 0 auto;
+  width: 272px;
+}
+
+input {
+  background-color: #f2f2f2;
+  border-radius: 34px;
+  height: 34px;
+  line-height: 34px;
+  margin: 50 auto;
+  width: 550px;
 }

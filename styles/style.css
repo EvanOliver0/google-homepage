@@ -58,6 +58,19 @@ html, body {
     justify-self: right;
     margin: 0px 30px 0px 0px;
   }
+  #apps {
+    background-image: url('https://ssl.gstatic.com/gb/images/i1_1967ca6a.png');
+    background-position: -132px -38px;
+    background-size: 528px 68px;
+    display: inline-block;
+    height: 30px;
+    opacity: 0.55;
+    vertical-align: middle;
+    width: 30px;
+  }
+  #apps:hover {
+    opacity: 0.85;
+  }
   #signin {
     background: #4387fd;
     border: 1px solid #4285f4;
